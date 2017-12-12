@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:visible="true">
+        <item android:title="Main">
+        <item
+            android:id="@+id/navparoducteur"
+            android:icon="@drawable/ic_prod"
+            android:title="Producteur" />
+        <item
+            android:id="@+id/navparcelle"
+            android:icon="@drawable/ic_parcelle"
+            android:title="Parcelle" />
+
+        <item
+            android:id="@+id/navachat"
+            android:icon="@drawable/ic_achat"
+            android:title="Achat" />
+        <item
+            android:id="@+id/navlot"
+            android:icon="@drawable/ic_lot"
+            android:title="Lot" />
+       </item>
+    </group>
+
+</menu>
